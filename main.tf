@@ -1,8 +1,7 @@
-resource "aws_s3_bucket" "example" {
-  bucket = "opentofu-aws-s3-example"
 
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
+# ----------------------------------
+# S3
+# ----------------------------------
+resource "aws_s3_bucket" "s3" {
+  bucket = "opentofu-aws-example-s3"
 }
