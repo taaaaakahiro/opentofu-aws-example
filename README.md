@@ -9,8 +9,13 @@ $ cp .envrc.sample .envrc
 $ tofu init
 ```
 
-## version
+## version manager
+
 ```shell
+$ brew intall tofuenv
+$ tofuenv list-remote
+$ tofuenv install latest
+$ tofuenv use <version>
 $ tofu -v
 OpenTofu v1.6.0-dev
 on darwin_arm64
