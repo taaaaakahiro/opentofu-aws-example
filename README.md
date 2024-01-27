@@ -9,11 +9,15 @@ $ cp .envrc.sample .envrc
 $ tofu init
 ```
 
-## version
+## version manager
+
 ```shell
-$ tofu -v
-OpenTofu v1.6.0-dev
-on darwin_arm64
+$ brew intall tofuenv
+$ tofuenv list-remote
+$ tofuenv install latest
+$ tofuenv use <version>
+$ tofu -v #v1.6.1
+$ $ tofu graph | dot -Tsvg > graph.svg # make graph
 ```
 
 ## Docs
