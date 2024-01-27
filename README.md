@@ -16,9 +16,7 @@ $ brew intall tofuenv
 $ tofuenv list-remote
 $ tofuenv install latest
 $ tofuenv use <version>
-$ tofu -v
-OpenTofu v1.6.0-dev
-on darwin_arm64
+$ tofu -v #v1.6.1
 ```
 
 ## Docs
