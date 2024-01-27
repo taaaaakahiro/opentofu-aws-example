@@ -17,6 +17,7 @@ $ tofuenv list-remote
 $ tofuenv install latest
 $ tofuenv use <version>
 $ tofu -v #v1.6.1
+$ $ tofu graph | dot -Tsvg > graph.svg # make graph
 ```
 
 ## Docs
